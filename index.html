@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcel Feo - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegação -->
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+    </nav>
+
+
+    <!-- Seção Home -->
+    <section id="home">
+        <div class="hero">
+            <h1>Olá, eu sou Marcel Féo</h1>
+            <p>Cientista de Dados | Machine Learning | Desenvolvedor</p>
+            <a href="#projetos" class="btn">Veja meus projetos</a>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div id="project-list" class="project-container"></div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <div class="sobre-content">
+            <p>Me chamo Marcel Féo, cientista de dados com experiência em análise de dados, machine learning e desenvolvimento web. Durante meu estágio como cientista de dados, trabalhei na Pharma E-Connection, onde desenvolvi um aplicativo para visualização de dados, realizei análises exploratórias de dados e colaborei na automação de processos utilizando Python e ferramentas como Pandas, Scikit-learn e SQL.</p>
+            <p>Atualmente fazendo Ciência da Computação na UFU, sou apaixonado por transformar dados em insights acionáveis e criar soluções inovadoras.</p>
+            <a href="https://linkedin.com/in/marcelfeo/" target="_blank" class="btn">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contact-form" action="https://formspree.io/f/seu-código-aqui" method="POST">
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
